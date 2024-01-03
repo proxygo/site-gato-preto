@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Nanum Gothic Coding';
+    margin: 0;
+    padding: 0;
+    background-color: #ffe2e2;
+}
+
+h1, h2, p {
+    padding: 30px;
+    text-align: center;
+}
+
+
+header {
+    background-color: #333;
+    color: #ffe2e2;
+    text-align: center;
+    padding: 15px;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffe2e2;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.article {
+    background-color: #ffe2e2;
+    text-align: center;
+    padding: 0px;
+    margin: 100px 0px 0px 0px;
+}
+
+.article-text {
+    background-color: #333; 
+    color: #ffe2e2;
+    text-align: center;
+    padding: 10px;
+    margin-top: -5px;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+section {
+    padding: 20px;
+}
+
+img {
+    max-width: 30%;
+    height: auto;
+}
+
+.img-with-text {
+    display: flex;
+    align-items: center;
+    margin: 100px 0px 60px 300px;
+}
+
+.text {
+    padding: 20px;
+}
+
+#galeria img {
+    max-width: 25%;
+    border-radius: 50%;
+    height: auto;
+    margin: 70px 0px 80px 100px;
+}
+
+button {
+    width: 10%;
+    padding: 10px;
+    font-family: 'Nanum Gothic Coding';
+    font-size: large;
+}
+
+.sobre {
+    padding: 100px;
+    align-items: center;
+    margin: 100px 0px 0px 0px;
+}
+
+button:hover { 
+
+    background-color:#ffe2e2; 
+
+}
+
+.formularioContato { 
+
+    max-width:600px; 
+    height:auto; 
+    float:none; 
+    margin:auto; 
+    padding:1em; 
+    margin-bottom:1em; 
+    border-radius:6px; 
+    background:#fff; 
+    box-shadow: 1px 0px 1.2px 0px #ccc; 
+    position:relative; 
+}
+
+.formularioContato:before { 
+
+    width:0; 
+    height:0; 
+    border:15px solid transparent; 
+    border-bottom-color:#fff; 
+    content:""; 
+    position:absolute; 
+    left:6%; 
+    top:-4.5%; 
+    margin-top:-4px; 
+    margin-left:6px; 
+    z-index:2;
+
+}
+
+.formularioContato label  { 
+
+    float:left; 
+    width:100%; 
+    margin-bottom:1.2em; 
+
+}
+
+.formularioContato label span {
+
+    width: 100%;
+    float: left;
+    color: #999;
+    margin-bottom: 6px;
+    font-family:'open_sansregular'; 
+
+}
+
+.formularioContato label input  { 
+
+    font-size:1em; 
+    color:#555; 
+    font-family:'Nanum Gothic Coding'; 
+    outline:none; 
+    border:1px #dee5ed solid; 
+    border-radius:4px; 
+    padding:0.6em; 
+    transition: 0.3s;  
+
+}
+
+.formularioContato label select { 
+
+    font-size:1em; 
+    color:#555; 
+    border:1px #dee5ed solid; 
+    border-radius:4px; 
+    padding:0.6em; 
+    outline:none; 
+    transition: 0.3s;  
+
+}
+
+.formularioContato label textarea { 
+
+    font-size:1em; 
+    color:#555; 
+    border:1px #dee5ed solid; 
+    border-radius:4px; 
+    padding:0.6em; 
+    outline:none;
+    transition: 0.3s;   
+
+}
+
+.formularioContato label input:focus    { box-shadow:0 0 5px 0px rgb(178,216,231); border:1px #333 solid; color: #333;}
+.formularioContato label select:focus   { box-shadow:0 0 5px 0px rgb(178,216,231); border:1px #333 solid; }
+.formularioContato label textarea:focus { box-shadow:0 0 5px 0px rgb(178,216,231); border:1px #333 solid; color:#333;}
+
+.formularioContato button.btn-envia { 
+
+    background-color:#cea5a5; 
+    width:100%; display:block; 
+    margin:auto; cursor:pointer; 
+    border-radius:4px;  
+    border:0; 
+    padding:0.8em 0em; 
+    color:#fff; 
+    font-size:1.3em; 
+    font-family:'Nanum Gothic Coding'; 
+    text-align: center;
+    transition: 0.3s;   
+
+}
+
+.formularioContato button.btn-envia:hover { 
+
+    background-color:#333; 
+
+}
+
+footer{
+    margin: 100px 10px 0px 0px;
+}
